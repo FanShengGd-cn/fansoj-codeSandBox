@@ -1,0 +1,9 @@
+spring :
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+server:
+  port: 8105
+auth:
+  auth_header: fans
+  auth_header_key: fansheng
